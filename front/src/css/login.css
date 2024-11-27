@@ -1,0 +1,79 @@
+/* Scoped styles for the Login component */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f7fc;
+    padding: 20px;
+  }
+  
+  .login-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input {
+    font-size: 1rem;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #4c90f7;
+    outline: none;
+  }
+  
+  .login-form button {
+    padding: 12px;
+    background-color: #4c90f7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #3a7bc1;
+  }
+  
+  .error {
+    color: #f44336;
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    margin-top: 15px;
+    font-size: 0.875rem;
+  }
+  
+  .footer a {
+    color: #4c90f7;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
